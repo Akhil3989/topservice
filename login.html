@@ -1,0 +1,111 @@
+<!-- starting the html code for the main page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- giving title to the tab  -->
+  <title>Login Page</title>
+
+  <!-- linking login.css to the document so styles can be applied -->
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <!-- defining navbar div, for the navbar -->
+  <div id="navbar">
+
+    <!-- defining logo div, for the logo -->
+    <div id="logo">
+
+      <!-- defining anchor tag, for on click, it redirects to home page -->
+      <a href="index.html" style="text-decoration: none;">
+
+        <!-- making the logo using span tag -->
+        <span style="color: #5f3afc">Service</span><span style="color: #f1634c">Top</span>
+      </a>
+    </div>
+
+    <!-- defining options div, for top options to navigate -->
+    <div id="options">
+      <div class="option">Home</div>
+      <div class="option">Subscription</div>
+      <div class="option">About Us</div>
+      <div class="option">Experts</div>
+      <div class="option">FAQ</div>
+      <div class="option">Blog</div>
+      <div class="option">Contact Us</div>
+    </div>
+  </div>
+
+  <!-- defining banner_image div for the top banner of the website -->
+  <div class="banner_image">
+
+    <!-- defining banner_text div for the text on top of the banner -->
+    <div class="banner_text">
+      <h1>Login</h1>
+
+      <!-- defining home-login div for the text below Login -->
+      <div class="home-login">
+
+        <!-- span for adding text -->
+        <span id="home_text">
+
+          <!-- adding anchor tag, for on clock, it gets redirected to home page -->
+          <a href="./index.html">Home</a>
+        </span>
+        <span>
+          |
+        </span>
+
+        <!-- span for adding text -->
+        <span id="login_text">
+          Login
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- defining the card div, a parent div for the whole login card of the website -->
+  <div class="card">
+
+    <!-- defining card_login div -->
+    <div class="card_login">
+
+      <!-- defining the email div, for inputing email -->
+      <div id="email">
+
+        <!-- label for the top text on top of input box -->
+        <label for="email" id="email_text">Email Address <span id="danger">*</span></label>
+
+        <!-- input box for entering email -->
+        <input type="email" name="email" id="email_box">
+      </div>
+
+      <!-- same as email div -->
+      <div id="password">
+        <label for="password" id="password_text">Password <span id="danger">*</span></label>
+        <input type="password" name="password" id="password_box">
+      </div>
+
+      <!-- defining button div, for Login Now button -->
+      <div class="button">
+
+        <!-- button tag for Login Now -->
+        <button type="submit">Login Now</button>
+      </div>
+
+      <!-- defining forgot tag, for forgot password -->
+      <div id="forgot">
+        <p>Forgot Password?
+          <a href="#">Click here to Reset</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

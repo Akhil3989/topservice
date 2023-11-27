@@ -1,0 +1,217 @@
+@font-face {
+    font-family: helvetica;
+    src: url(./assets/Helvetica\ Neue\ Medium\ Extended.ttf)
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  
+  body {
+    font-family: helvetica;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+  }
+  
+  #navbar {
+    height: 8.5vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.121);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 13.3%;
+    padding-right: 15.5%; */
+  }
+  
+  #logo {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 13.3%;
+  }
+  
+  #options {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 44.27vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15.5%;
+  }
+  
+  .option {
+    transition: color 0.3s;
+  }
+  
+  .option:hover {
+    cursor: pointer;
+    color: rgb(255, 115, 0);
+  }
+  
+  .banner_image {
+    position: relative;
+    height: 15em;
+    color: #fff;
+    background-image: url(https://demo.websolutionus.com/servicetop/backend/images/breadcrumb/613a643191f3b1631216689.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 1em;
+  }
+  
+  .banner_image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  }
+  
+  .banner_text {
+    font-family: helvetica;
+    position: absolute;
+    margin-top: 1.25em;
+    margin-left: 6.25em;
+  }
+  
+  .banner_text h1 {
+    font-family: helvetica;
+    font-size: 3.1875em;
+    font-weight: 900;
+    margin-top: 0.3em;
+    color: #fff;
+  }
+  
+  #home_text a {
+    position: relative;
+    font-size: 1.1875em;
+    color: #fff;
+    font-family: helvetica;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #login_text {
+    font-size: 1.1875em;
+    color: #f1634c;
+  }
+  
+  .card {
+    position: relative;
+    width: 34.6875em;
+    height: 20.5625em;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0.0625em solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25em;
+    box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.15);
+    margin-top: 3.125em;
+    margin-left: 29.875em;
+  }
+  
+  .card_login {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0.0625em;
+    padding: 1.25em;
+  }
+  
+  #email {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #email_box {
+    border: 0.0625em solid #bfbfbf;
+    border-radius: 0;
+    height: 2.75em;
+    box-shadow: none;
+    font-size: 1.125em;
+    background: none;
+    padding-left: 10px;
+  }
+  
+  #email_text {
+    display: inline-block;
+    margin-bottom: 0.3125em;
+  }
+  
+  #danger {
+    color: #dc3545;
+  }
+  
+  #password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25em;
+  }
+  
+  #password_box {
+    border: 0.0625em solid #bfbfbf;
+    border-radius: 0;
+    height: 2.75em;
+    font-size: 1.125em;
+    box-shadow: none;
+    background: none;
+    padding-left: 10px;
+  
+  }
+  
+  #password_text {
+    display: inline-block;
+    margin-bottom: 0.3125em;
+  }
+  
+  .button button {
+    background: #5f3afc;
+    display: inline-block;
+    margin-top: 1.875em;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0.0625em solid transparent;
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  .button button:hover {
+    background-color: #4b2cb7;
+    /* Change in hover state for example */
+  }
+  
+  #forgot {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-top: 1.25em;
+  }
+  
+  #forgot p {
+    opacity: 0.7;
+  }
+  
+  #forgot p a {
+    text-decoration: none;
+    opacity: 1;
+  }
+  
